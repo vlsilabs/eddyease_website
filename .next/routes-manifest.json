@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    },
+    {
+      "source": "/",
+      "destination": "/home",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/(?:/)?$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/fonts/:path*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "regex": "^/fonts(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/about_us",
+      "regex": "^/about_us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about_us(?:/)?$"
+    },
+    {
+      "page": "/about_us/banner",
+      "regex": "^/about_us/banner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about_us/banner(?:/)?$"
+    },
+    {
+      "page": "/about_us/our_story",
+      "regex": "^/about_us/our_story(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about_us/our_story(?:/)?$"
+    },
+    {
+      "page": "/about_us/vision",
+      "regex": "^/about_us/vision(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about_us/vision(?:/)?$"
+    },
+    {
+      "page": "/contact_us",
+      "regex": "^/contact_us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact_us(?:/)?$"
+    },
+    {
+      "page": "/contact_us/banner",
+      "regex": "^/contact_us/banner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact_us/banner(?:/)?$"
+    },
+    {
+      "page": "/contact_us/contact_form",
+      "regex": "^/contact_us/contact_form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact_us/contact_form(?:/)?$"
+    },
+    {
+      "page": "/courses",
+      "regex": "^/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/courses(?:/)?$"
+    },
+    {
+      "page": "/courses/industries",
+      "regex": "^/courses/industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/courses/industries(?:/)?$"
+    },
+    {
+      "page": "/courses/semiconductor",
+      "regex": "^/courses/semiconductor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/courses/semiconductor(?:/)?$"
+    },
+    {
+      "page": "/home",
+      "regex": "^/home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home(?:/)?$"
+    },
+    {
+      "page": "/home/banner",
+      "regex": "^/home/banner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/banner(?:/)?$"
+    },
+    {
+      "page": "/home/courses",
+      "regex": "^/home/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/courses(?:/)?$"
+    },
+    {
+      "page": "/home/success_stories",
+      "regex": "^/home/success_stories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/success_stories(?:/)?$"
+    },
+    {
+      "page": "/home/why_choose_us",
+      "regex": "^/home/why_choose_us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/why_choose_us(?:/)?$"
+    },
+    {
+      "page": "/privacy_policy",
+      "regex": "^/privacy_policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy_policy(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

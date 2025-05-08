@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[995],{5446:(_,s,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/courses/industries",function(){return n(7882)}])}},_=>{var s=s=>_(_.s=s);_.O(0,[882,636,593,792],()=>s(5446)),_N_E=_.O()}]);

@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about_us/banner": "pages/about_us/banner.html",
+  "/about_us": "pages/about_us.html",
+  "/about_us/our_story": "pages/about_us/our_story.html",
+  "/about_us/vision": "pages/about_us/vision.html",
+  "/_error": "pages/_error.js",
+  "/contact_us/banner": "pages/contact_us/banner.html",
+  "/contact_us/contact_form": "pages/contact_us/contact_form.html",
+  "/contact_us": "pages/contact_us.html",
+  "/courses": "pages/courses.html",
+  "/courses/industries": "pages/courses/industries.html",
+  "/courses/semiconductor": "pages/courses/semiconductor.html",
+  "/home/banner": "pages/home/banner.html",
+  "/home/courses": "pages/home/courses.html",
+  "/home": "pages/home.html",
+  "/home/success_stories": "pages/home/success_stories.html",
+  "/home/why_choose_us": "pages/home/why_choose_us.html",
+  "/privacy_policy": "pages/privacy_policy.html",
+  "/404": "pages/404.html"
+}
